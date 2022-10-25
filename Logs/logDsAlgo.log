@@ -1,0 +1,78 @@
+[INFO ] 2022-10-13 14:07:14.414 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-13 14:07:19.001 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:11:12.577 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:11:19.833 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:12:40.368 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:12:45.009 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:15:45.617 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:15:49.924 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:17:55.695 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:17:59.168 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:21:20.421 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:21:25.134 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:24:13.509 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:24:18.240 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:24:19.660 [main] TC_DsAlgoHomeTest - Navigated to array page
+[INFO ] 2022-10-14 03:31:59.619 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:32:03.997 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:32:05.579 [main] TC_DsAlgoHomeTest - Navigated to array page
+[INFO ] 2022-10-14 03:36:54.381 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:36:58.759 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:37:00.085 [main] TC_DsAlgoHomeTest - Navigated to array page
+[INFO ] 2022-10-14 03:44:31.830 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 03:44:35.674 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 03:44:37.177 [main] TC_DsAlgoHomeTest - Navigated to array page
+[INFO ] 2022-10-14 11:47:46.698 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-14 11:47:52.263 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-14 11:47:53.877 [main] TC_DsAlgoHomeTest - Navigated to array page
+[INFO ] 2022-10-14 13:08:26.479 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-14 13:13:41.386 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-14 18:44:26.551 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-14 18:44:58.684 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-14 18:45:28.923 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-14 18:45:29.852 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-15 12:30:50.534 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-15 12:30:51.204 [main] TC_DsAlgoTreeTest - Try editor from Terminologies
+[INFO ] 2022-10-15 12:30:51.761 [main] TC_DsAlgoTreeTest - In Try editor, from tree traversals
+[INFO ] 2022-10-15 12:30:52.366 [main] TC_DsAlgoTreeTest - In Try editor from Types of trees
+[INFO ] 2022-10-15 12:30:52.974 [main] TC_DsAlgoTreeTest - In Try editor, from Application of Binary Trees
+[INFO ] 2022-10-15 12:30:53.791 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Search Tree
+[INFO ] 2022-10-15 12:30:54.372 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Tree Traversals
+[INFO ] 2022-10-15 12:30:55.067 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Trees
+[INFO ] 2022-10-15 12:30:55.648 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation in Binary Trees
+[INFO ] 2022-10-15 12:30:56.263 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation in Python
+[INFO ] 2022-10-15 12:30:57.383 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation of BST
+[INFO ] 2022-10-15 12:30:57.982 [main] TC_DsAlgoTreeTest - In Try editor, from Traversals Illustration
+[INFO ] 2022-10-15 12:30:58.608 [main] TC_DsAlgoTreeTest - In Try editor, from Types Of Binary Trees
+[INFO ] 2022-10-15 12:35:13.411 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-15 12:35:18.445 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-15 12:35:20.522 [main] TC_DsAlgoHomeTest - Navigated to array page
+[INFO ] 2022-10-15 12:35:58.045 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-15 12:35:58.666 [main] TC_DsAlgoTreeTest - Try editor from Terminologies
+[INFO ] 2022-10-15 12:35:59.315 [main] TC_DsAlgoTreeTest - In Try editor, from tree traversals
+[INFO ] 2022-10-15 12:35:59.849 [main] TC_DsAlgoTreeTest - In Try editor from Types of trees
+[INFO ] 2022-10-15 12:36:00.432 [main] TC_DsAlgoTreeTest - In Try editor, from Application of Binary Trees
+[INFO ] 2022-10-15 12:36:01.243 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Search Tree
+[INFO ] 2022-10-15 12:36:01.891 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Tree Traversals
+[INFO ] 2022-10-15 12:36:02.498 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Trees
+[INFO ] 2022-10-15 12:36:03.068 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation in Binary Trees
+[INFO ] 2022-10-15 12:36:03.636 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation in Python
+[INFO ] 2022-10-15 12:36:05.333 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation of BST
+[INFO ] 2022-10-15 12:36:06.234 [main] TC_DsAlgoTreeTest - In Try editor, from Traversals Illustration
+[INFO ] 2022-10-15 12:36:06.886 [main] TC_DsAlgoTreeTest - In Try editor, from Types Of Binary Trees
+[INFO ] 2022-10-17 23:05:28.615 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-17 23:05:32.834 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-17 23:05:34.391 [main] TC_DsAlgoHomeTest - Navigated to array page
+[INFO ] 2022-10-17 23:06:07.445 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-17 23:06:08.036 [main] TC_DsAlgoTreeTest - Try editor from Terminologies
+[INFO ] 2022-10-17 23:06:09.116 [main] TC_DsAlgoTreeTest - In Try editor, from tree traversals
+[INFO ] 2022-10-17 23:06:09.705 [main] TC_DsAlgoTreeTest - In Try editor from Types of trees
+[INFO ] 2022-10-17 23:06:10.285 [main] TC_DsAlgoTreeTest - In Try editor, from Application of Binary Trees
+[INFO ] 2022-10-17 23:06:11.227 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Search Tree
+[INFO ] 2022-10-17 23:06:13.203 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Tree Traversals
+[INFO ] 2022-10-17 23:06:13.824 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Trees
+[INFO ] 2022-10-17 23:06:14.443 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation in Binary Trees
+[INFO ] 2022-10-17 23:06:15.004 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation in Python
+[INFO ] 2022-10-17 23:06:16.600 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation of BST
+[INFO ] 2022-10-17 23:06:17.240 [main] TC_DsAlgoTreeTest - In Try editor, from Traversals Illustration
+[INFO ] 2022-10-17 23:06:18.529 [main] TC_DsAlgoTreeTest - In Try editor, from Types Of Binary Trees

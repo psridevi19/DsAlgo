@@ -1,0 +1,70 @@
+[INFO ] 2022-10-21 11:46:03.027 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-21 11:46:55.560 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-21 11:48:31.673 [main] TC_DsAlgoPortalTest_001 - In HomePage
+[INFO ] 2022-10-21 11:48:37.463 [main] TC_DsAlgoHomeTest - In Login Page
+[INFO ] 2022-10-21 11:48:39.072 [main] TC_DsAlgoHomeTest - Navigated to array page
+[INFO ] 2022-10-21 11:49:21.016 [main] TC_DsAlgoTreeTest - Try editor from Overview of trees
+[INFO ] 2022-10-21 11:49:21.614 [main] TC_DsAlgoTreeTest - Try editor from Terminologies
+[INFO ] 2022-10-21 11:49:22.385 [main] TC_DsAlgoTreeTest - In Try editor, from tree traversals
+[INFO ] 2022-10-21 11:49:22.983 [main] TC_DsAlgoTreeTest - In Try editor from Types of trees
+[INFO ] 2022-10-21 11:49:23.689 [main] TC_DsAlgoTreeTest - In Try editor, from Application of Binary Trees
+[INFO ] 2022-10-21 11:49:24.519 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Search Tree
+[INFO ] 2022-10-21 11:49:25.186 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Tree Traversals
+[INFO ] 2022-10-21 11:49:25.872 [main] TC_DsAlgoTreeTest - In Try editor, from Binary Trees
+[INFO ] 2022-10-21 11:49:26.475 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation in Binary Trees
+[INFO ] 2022-10-21 11:49:27.103 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation in Python
+[INFO ] 2022-10-21 11:49:28.366 [main] TC_DsAlgoTreeTest - In Try editor, from Implementation of BST
+[INFO ] 2022-10-21 11:49:29.676 [main] TC_DsAlgoTreeTest - In Try editor, from Traversals Illustration
+[INFO ] 2022-10-21 11:49:31.023 [main] TC_DsAlgoTreeTest - In Try editor, from Types Of Binary Trees
+[INFO ] 2022-10-21 17:16:02.087 [main] LoggerClass - info :Drop menu is compared and equal
+[INFO ] 2022-10-21 17:17:38.559 [main] LoggerClass - info :Drop menu is compared and equal
+[INFO ] 2022-10-21 17:19:48.070 [main] LoggerClass - info :Drop menu is compared and equal
+[INFO ] 2022-10-21 17:19:51.848 [main] LoggerClass - info :Screenshot taken
+[INFO ] 2022-10-21 17:20:00.089 [main] LoggerClass - info :loginTest : Login sucessful
+[INFO ] 2022-10-21 17:20:00.967 [main] LoggerClass - info :LoginTest : Inavlid login ,Passed
+[INFO ] 2022-10-21 17:20:01.369 [main] LoggerClass - info :LoginTest : Inavlid login ,Passed
+[INFO ] 2022-10-21 17:20:01.818 [main] LoggerClass - info :LoginTest : Inavlid login ,Passed
+[INFO ] 2022-10-21 17:20:24.416 [main] LoggerClass - info :Validation message : Please fill out this field.
+[INFO ] 2022-10-21 17:20:25.975 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:20:26.003 [main] LoggerClass - info :password_mismatch:The two password fields didn’t match.
+[INFO ] 2022-10-21 17:20:26.338 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:20:26.359 [main] LoggerClass - info :password_mismatch:The two password fields didn’t match.
+[INFO ] 2022-10-21 17:20:26.731 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:20:26.753 [main] LoggerClass - info :password_mismatch:The two password fields didn’t match.
+[INFO ] 2022-10-21 17:20:27.132 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:20:27.157 [main] LoggerClass - info :password_mismatch:The two password fields didn’t match.
+[INFO ] 2022-10-21 17:20:27.595 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:20:27.620 [main] LoggerClass - info :password_mismatch:The two password fields didn’t match.
+[INFO ] 2022-10-21 17:20:27.999 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:20:28.027 [main] LoggerClass - info :password_mismatch:The two password fields didn’t match.
+[INFO ] 2022-10-21 17:20:28.698 [main] LoggerClass - info :registerTest : in Home Page
+[INFO ] 2022-10-21 17:20:28.699 [main] LoggerClass - info :isNewAccountCreated : Checking new account creation
+[INFO ] 2022-10-21 17:20:28.725 [main] LoggerClass - info :New Account created, Username : test-223758272
+[INFO ] 2022-10-21 17:20:29.701 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:20:29.726 [main] LoggerClass - info :password_mismatch:The two password fields didn’t match.
+[INFO ] 2022-10-21 17:20:31.155 [main] LoggerClass - info :Screenshot taken
+[INFO ] 2022-10-21 17:24:33.137 [main] LoggerClass - info :Drop menu is compared and equal
+[INFO ] 2022-10-21 17:24:37.613 [main] LoggerClass - info :Screenshot taken
+[INFO ] 2022-10-21 17:24:45.644 [main] LoggerClass - info :loginTest : Login sucessful
+[INFO ] 2022-10-21 17:24:46.702 [main] LoggerClass - info :LoginTest : Inavlid login ,Passed
+[INFO ] 2022-10-21 17:24:47.122 [main] LoggerClass - info :LoginTest : Inavlid login ,Passed
+[INFO ] 2022-10-21 17:24:47.535 [main] LoggerClass - info :LoginTest : Inavlid login ,Passed
+[INFO ] 2022-10-21 17:25:29.521 [main] LoggerClass - info :Validation message : Please fill out this field.
+[INFO ] 2022-10-21 17:25:30.797 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:25:30.829 [main] LoggerClass - info :password_mismatch:The two password fields didnâ€™t match.
+[INFO ] 2022-10-21 17:25:31.206 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:25:31.230 [main] LoggerClass - info :password_mismatch:The two password fields didnâ€™t match.
+[INFO ] 2022-10-21 17:25:31.629 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:25:31.653 [main] LoggerClass - info :password_mismatch:The two password fields didnâ€™t match.
+[INFO ] 2022-10-21 17:25:32.059 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:25:32.080 [main] LoggerClass - info :password_mismatch:The two password fields didnâ€™t match.
+[INFO ] 2022-10-21 17:25:32.456 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:25:32.479 [main] LoggerClass - info :password_mismatch:The two password fields didnâ€™t match.
+[INFO ] 2022-10-21 17:25:32.890 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:25:32.913 [main] LoggerClass - info :password_mismatch:The two password fields didnâ€™t match.
+[INFO ] 2022-10-21 17:25:33.515 [main] LoggerClass - info :registerTest : in Home Page
+[INFO ] 2022-10-21 17:25:33.516 [main] LoggerClass - info :isNewAccountCreated : Checking new account creation
+[INFO ] 2022-10-21 17:25:33.544 [main] LoggerClass - info :New Account created, Username : test-1880412265
+[INFO ] 2022-10-21 17:25:34.488 [main] LoggerClass - info :registerTest : In registraion page
+[INFO ] 2022-10-21 17:25:34.526 [main] LoggerClass - info :password_mismatch:The two password fields didnâ€™t match.
+[INFO ] 2022-10-21 17:25:34.709 [main] LoggerClass - info :Screenshot taken
