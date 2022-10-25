@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">41 methods, 1 failed,   40 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="verifyvalidationMsg">verifyvalidationMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="VerifyOverviewOfTrees">VerifyOverviewOfTrees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="VerifyRegisterWithEmptyFields">VerifyRegisterWithEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="VerifyTerminologies">VerifyTerminologies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="VerifyTreeTraversals">VerifyTreeTraversals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="VerifyTypesOfTrees">VerifyTypesOfTrees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoLoginTest" class="method navigator-link" hash-for-method="loginTest(hhghgg, Dsalgo@123, invalid)">loginTest(hhghgg, Dsalgo@123, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoLoginTest" class="method navigator-link" hash-for-method="loginTest(sridevi, Dsalgo@123, valid)">loginTest(sridevi, Dsalgo@123, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoLoginTest" class="method navigator-link" hash-for-method="loginTest(xddvfgdgf, bgbgbgfbgfb, invalid)">loginTest(xddvfgdgf, bgbgbgfbgfb, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoLoginTest" class="method navigator-link" hash-for-method="loginTest(sridevi, hjkhvhjv, invalid)">loginTest(sridevi, hjkhvhjv, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="registerTest(test101, Test@1, Test@1, invalid)">registerTest(test101, Test@1, Test@1, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="registerTest(test101, 789456123, 789456123, invalid)">registerTest(test101, 789456123, 789456123, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="registerTest(test101, Test@123, Test@124, invalid)">registerTest(test101, Test@123, Test@124, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="registerTest(test105, Test@123, Test@123, invalid)">registerTest(test105, Test@123, Test@123, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="registerTest(test12334//, Test@123, Test@123, invalid)">registerTest(test12334//, Test@123, Test@123, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="registerTest(sdfsdf(op, Test@123, Test@123, invalid)">registerTest(sdfsdf(op, Test@123, Test@123, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoHomeTest" class="method navigator-link" hash-for-method="signIn">signIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoArrayTest" class="method navigator-link" hash-for-method="testArray">testArray</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyAppOfBinaryTrees">verifyAppOfBinaryTrees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoQueueTest" class="method navigator-link" hash-for-method="verifyArrayLink">verifyArrayLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoHomeTest" class="method navigator-link" hash-for-method="verifyArrayPageNav_AfterLogin">verifyArrayPageNav_AfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoHomeTest" class="method navigator-link" hash-for-method="verifyArrayPageNav_BeforeLogin">verifyArrayPageNav_BeforeLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoHomeTest" class="method navigator-link" hash-for-method="verifyArrayPageNav_FromDropdown">verifyArrayPageNav_FromDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyBST">verifyBST</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyBinaryTreeTraversals">verifyBinaryTreeTraversals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyBinaryTrees">verifyBinaryTrees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoQueueTest" class="method navigator-link" hash-for-method="verifyCollectionsLink">verifyCollectionsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoHomeTest" class="method navigator-link" hash-for-method="verifyDropDown">verifyDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyImpInBinaryTrees">verifyImpInBinaryTrees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyImpInPython">verifyImpInPython</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyImpOfBST">verifyImpOfBST</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoQueueTest" class="method navigator-link" hash-for-method="verifyLinkImpQueueInPython">verifyLinkImpQueueInPython</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoQueueTest" class="method navigator-link" hash-for-method="verifyPracticeQuestions">verifyPracticeQuestions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoQueueTest" class="method navigator-link" hash-for-method="verifyQueueOperations">verifyQueueOperations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoHomeTest" class="method navigator-link" hash-for-method="verifyQueuePageNav_AfterLogin">verifyQueuePageNav_AfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoHomeTest" class="method navigator-link" hash-for-method="verifyRegisterLink">verifyRegisterLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoQueueTest" class="method navigator-link" hash-for-method="verifyRunBtnFromQueue">verifyRunBtnFromQueue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyTraversalsIllustration">verifyTraversalsIllustration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoHomeTest" class="method navigator-link" hash-for-method="verifyTreePageNav_AfterLogin">verifyTreePageNav_AfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoTreeTest" class="method navigator-link" hash-for-method="verifyTypesOfBinaryTrees">verifyTypesOfBinaryTrees</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.dsAlgo.testCases.TC_DsAlgoRegisterTest" class="method navigator-link" hash-for-method="verifyValidRegisterDetails">verifyValidRegisterDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.dsAlgo.testCases.TC_DsAlgoRegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyvalidationMsg">
+                  </a> <!-- verifyvalidationMsg -->
+                  <span class="method-name">verifyvalidationMsg</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.dsAlgo.testCases.TC_DsAlgoRegisterTest.verifyvalidationMsg(TC_DsAlgoRegisterTest.java:267)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsAlgo.testCases.TC_DsAlgoArrayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testArray">
+                  </a> <!-- testArray -->
+                  <span class="method-name">testArray</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsAlgo.testCases.TC_DsAlgoLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(hhghgg, Dsalgo@123, invalid)">
+                  </a> <!-- loginTest(hhghgg, Dsalgo@123, invalid) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(hhghgg, Dsalgo@123, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(sridevi, Dsalgo@123, valid)">
+                  </a> <!-- loginTest(sridevi, Dsalgo@123, valid) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(sridevi, Dsalgo@123, valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(xddvfgdgf, bgbgbgfbgfb, invalid)">
+                  </a> <!-- loginTest(xddvfgdgf, bgbgbgfbgfb, invalid) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(xddvfgdgf, bgbgbgfbgfb, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(sridevi, hjkhvhjv, invalid)">
+                  </a> <!-- loginTest(sridevi, hjkhvhjv, invalid) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(sridevi, hjkhvhjv, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsAlgo.testCases.TC_DsAlgoQueueTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyArrayLink">
+                  </a> <!-- verifyArrayLink -->
+                  <span class="method-name">verifyArrayLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCollectionsLink">
+                  </a> <!-- verifyCollectionsLink -->
+                  <span class="method-name">verifyCollectionsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLinkImpQueueInPython">
+                  </a> <!-- verifyLinkImpQueueInPython -->
+                  <span class="method-name">verifyLinkImpQueueInPython</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPracticeQuestions">
+                  </a> <!-- verifyPracticeQuestions -->
+                  <span class="method-name">verifyPracticeQuestions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQueueOperations">
+                  </a> <!-- verifyQueueOperations -->
+                  <span class="method-name">verifyQueueOperations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRunBtnFromQueue">
+                  </a> <!-- verifyRunBtnFromQueue -->
+                  <span class="method-name">verifyRunBtnFromQueue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsAlgo.testCases.TC_DsAlgoRegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegisterWithEmptyFields">
+                  </a> <!-- VerifyRegisterWithEmptyFields -->
+                  <span class="method-name">VerifyRegisterWithEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerTest(test101, Test@1, Test@1, invalid)">
+                  </a> <!-- registerTest(test101, Test@1, Test@1, invalid) -->
+                  <span class="method-name">registerTest</span>
+                  <span class="parameters">(test101, Test@1, Test@1, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerTest(test101, 789456123, 789456123, invalid)">
+                  </a> <!-- registerTest(test101, 789456123, 789456123, invalid) -->
+                  <span class="method-name">registerTest</span>
+                  <span class="parameters">(test101, 789456123, 789456123, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerTest(test101, Test@123, Test@124, invalid)">
+                  </a> <!-- registerTest(test101, Test@123, Test@124, invalid) -->
+                  <span class="method-name">registerTest</span>
+                  <span class="parameters">(test101, Test@123, Test@124, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerTest(test105, Test@123, Test@123, invalid)">
+                  </a> <!-- registerTest(test105, Test@123, Test@123, invalid) -->
+                  <span class="method-name">registerTest</span>
+                  <span class="parameters">(test105, Test@123, Test@123, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerTest(test12334//, Test@123, Test@123, invalid)">
+                  </a> <!-- registerTest(test12334//, Test@123, Test@123, invalid) -->
+                  <span class="method-name">registerTest</span>
+                  <span class="parameters">(test12334//, Test@123, Test@123, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerTest(sdfsdf(op, Test@123, Test@123, invalid)">
+                  </a> <!-- registerTest(sdfsdf(op, Test@123, Test@123, invalid) -->
+                  <span class="method-name">registerTest</span>
+                  <span class="parameters">(sdfsdf(op, Test@123, Test@123, invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidRegisterDetails">
+                  </a> <!-- verifyValidRegisterDetails -->
+                  <span class="method-name">verifyValidRegisterDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsAlgo.testCases.TC_DsAlgoHomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn">
+                  </a> <!-- signIn -->
+                  <span class="method-name">signIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyArrayPageNav_AfterLogin">
+                  </a> <!-- verifyArrayPageNav_AfterLogin -->
+                  <span class="method-name">verifyArrayPageNav_AfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyArrayPageNav_BeforeLogin">
+                  </a> <!-- verifyArrayPageNav_BeforeLogin -->
+                  <span class="method-name">verifyArrayPageNav_BeforeLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyArrayPageNav_FromDropdown">
+                  </a> <!-- verifyArrayPageNav_FromDropdown -->
+                  <span class="method-name">verifyArrayPageNav_FromDropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropDown">
+                  </a> <!-- verifyDropDown -->
+                  <span class="method-name">verifyDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQueuePageNav_AfterLogin">
+                  </a> <!-- verifyQueuePageNav_AfterLogin -->
+                  <span class="method-name">verifyQueuePageNav_AfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterLink">
+                  </a> <!-- verifyRegisterLink -->
+                  <span class="method-name">verifyRegisterLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTreePageNav_AfterLogin">
+                  </a> <!-- verifyTreePageNav_AfterLogin -->
+                  <span class="method-name">verifyTreePageNav_AfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dsAlgo.testCases.TC_DsAlgoTreeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyOverviewOfTrees">
+                  </a> <!-- VerifyOverviewOfTrees -->
+                  <span class="method-name">VerifyOverviewOfTrees</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTerminologies">
+                  </a> <!-- VerifyTerminologies -->
+                  <span class="method-name">VerifyTerminologies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTreeTraversals">
+                  </a> <!-- VerifyTreeTraversals -->
+                  <span class="method-name">VerifyTreeTraversals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTypesOfTrees">
+                  </a> <!-- VerifyTypesOfTrees -->
+                  <span class="method-name">VerifyTypesOfTrees</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppOfBinaryTrees">
+                  </a> <!-- verifyAppOfBinaryTrees -->
+                  <span class="method-name">verifyAppOfBinaryTrees</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBST">
+                  </a> <!-- verifyBST -->
+                  <span class="method-name">verifyBST</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBinaryTreeTraversals">
+                  </a> <!-- verifyBinaryTreeTraversals -->
+                  <span class="method-name">verifyBinaryTreeTraversals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBinaryTrees">
+                  </a> <!-- verifyBinaryTrees -->
+                  <span class="method-name">verifyBinaryTrees</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImpInBinaryTrees">
+                  </a> <!-- verifyImpInBinaryTrees -->
+                  <span class="method-name">verifyImpInBinaryTrees</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImpInPython">
+                  </a> <!-- verifyImpInPython -->
+                  <span class="method-name">verifyImpInPython</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImpOfBST">
+                  </a> <!-- verifyImpOfBST -->
+                  <span class="method-name">verifyImpOfBST</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTraversalsIllustration">
+                  </a> <!-- verifyTraversalsIllustration -->
+                  <span class="method-name">verifyTraversalsIllustration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTypesOfBinaryTrees">
+                  </a> <!-- verifyTypesOfBinaryTrees -->
+                  <span class="method-name">verifyTypesOfBinaryTrees</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dsAlgo.testCases.TC_DsAlgoArrayTest&quot;/&gt;
+      &lt;class name=&quot;com.dsAlgo.testCases.TC_DsAlgoHomeTest&quot;/&gt;
+      &lt;class name=&quot;com.dsAlgo.testCases.TC_DsAlgoLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.dsAlgo.testCases.TC_DsAlgoQueueTest&quot;/&gt;
+      &lt;class name=&quot;com.dsAlgo.testCases.TC_DsAlgoRegisterTest&quot;/&gt;
+      &lt;class name=&quot;com.dsAlgo.testCases.TC_DsAlgoTreeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(41);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testArray')
+data.setCell(0, 2, 'com.dsAlgo.testCases.TC_DsAlgoArrayTest')
+data.setCell(0, 3, 14899);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyRunBtnFromQueue')
+data.setCell(1, 2, 'com.dsAlgo.testCases.TC_DsAlgoQueueTest')
+data.setCell(1, 3, 5821);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyOverviewOfTrees')
+data.setCell(2, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(2, 3, 3512);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyArrayLink')
+data.setCell(3, 2, 'com.dsAlgo.testCases.TC_DsAlgoQueueTest')
+data.setCell(3, 3, 2805);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyRegisterWithEmptyFields')
+data.setCell(4, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(4, 3, 2257);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyvalidationMsg')
+data.setCell(5, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(5, 3, 2186);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'com.dsAlgo.testCases.TC_DsAlgoLoginTest')
+data.setCell(6, 3, 2185);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signIn')
+data.setCell(7, 2, 'com.dsAlgo.testCases.TC_DsAlgoHomeTest')
+data.setCell(7, 3, 2098);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyArrayPageNav_FromDropdown')
+data.setCell(8, 2, 'com.dsAlgo.testCases.TC_DsAlgoHomeTest')
+data.setCell(8, 3, 1659);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyTreePageNav_AfterLogin')
+data.setCell(9, 2, 'com.dsAlgo.testCases.TC_DsAlgoHomeTest')
+data.setCell(9, 3, 1403);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyQueuePageNav_AfterLogin')
+data.setCell(10, 2, 'com.dsAlgo.testCases.TC_DsAlgoHomeTest')
+data.setCell(10, 3, 1354);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyArrayPageNav_AfterLogin')
+data.setCell(11, 2, 'com.dsAlgo.testCases.TC_DsAlgoHomeTest')
+data.setCell(11, 3, 1217);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyBST')
+data.setCell(12, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(12, 3, 1193);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyBinaryTreeTraversals')
+data.setCell(13, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(13, 3, 1186);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyTreeTraversals')
+data.setCell(14, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(14, 3, 1122);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyDropDown')
+data.setCell(15, 2, 'com.dsAlgo.testCases.TC_DsAlgoHomeTest')
+data.setCell(15, 3, 1088);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyImpInBinaryTrees')
+data.setCell(16, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(16, 3, 1054);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyAppOfBinaryTrees')
+data.setCell(17, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(17, 3, 1016);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyTraversalsIllustration')
+data.setCell(18, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(18, 3, 1003);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyValidRegisterDetails')
+data.setCell(19, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(19, 3, 920);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifyTypesOfTrees')
+data.setCell(20, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(20, 3, 912);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyBinaryTrees')
+data.setCell(21, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(21, 3, 889);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyTypesOfBinaryTrees')
+data.setCell(22, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(22, 3, 888);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyImpOfBST')
+data.setCell(23, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(23, 3, 885);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyTerminologies')
+data.setCell(24, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(24, 3, 866);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyImpInPython')
+data.setCell(25, 2, 'com.dsAlgo.testCases.TC_DsAlgoTreeTest')
+data.setCell(25, 3, 853);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyQueueOperations')
+data.setCell(26, 2, 'com.dsAlgo.testCases.TC_DsAlgoQueueTest')
+data.setCell(26, 3, 691);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyArrayPageNav_BeforeLogin')
+data.setCell(27, 2, 'com.dsAlgo.testCases.TC_DsAlgoHomeTest')
+data.setCell(27, 3, 656);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'loginTest')
+data.setCell(28, 2, 'com.dsAlgo.testCases.TC_DsAlgoLoginTest')
+data.setCell(28, 3, 599);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyCollectionsLink')
+data.setCell(29, 2, 'com.dsAlgo.testCases.TC_DsAlgoQueueTest')
+data.setCell(29, 3, 580);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyPracticeQuestions')
+data.setCell(30, 2, 'com.dsAlgo.testCases.TC_DsAlgoQueueTest')
+data.setCell(30, 3, 465);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'registerTest')
+data.setCell(31, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(31, 3, 458);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'loginTest')
+data.setCell(32, 2, 'com.dsAlgo.testCases.TC_DsAlgoLoginTest')
+data.setCell(32, 3, 413);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'registerTest')
+data.setCell(33, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(33, 3, 409);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'registerTest')
+data.setCell(34, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(34, 3, 400);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'loginTest')
+data.setCell(35, 2, 'com.dsAlgo.testCases.TC_DsAlgoLoginTest')
+data.setCell(35, 3, 400);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'registerTest')
+data.setCell(36, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(36, 3, 398);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'registerTest')
+data.setCell(37, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(37, 3, 393);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyRegisterLink')
+data.setCell(38, 2, 'com.dsAlgo.testCases.TC_DsAlgoHomeTest')
+data.setCell(38, 3, 365);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'registerTest')
+data.setCell(39, 2, 'com.dsAlgo.testCases.TC_DsAlgoRegisterTest')
+data.setCell(39, 3, 349);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyLinkImpQueueInPython')
+data.setCell(40, 2, 'com.dsAlgo.testCases.TC_DsAlgoQueueTest')
+data.setCell(40, 3, 296);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsAlgo.testCases.TC_DsAlgoArrayTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerObj</span>
+                <span class="method-start">16999 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">17021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testArray</span>
+                <span class="method-start">17202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32127 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsAlgo.testCases.TC_DsAlgoHomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32341 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerObj</span>
+                <span class="method-start">37887 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">37887 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signIn</span>
+                <span class="method-start">38114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">40227 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyArrayPageNav_FromDropdown</span>
+                <span class="method-start">40231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">41894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDropDown</span>
+                <span class="method-start">41900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">42990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyQueuePageNav_AfterLogin</span>
+                <span class="method-start">42992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">44349 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterLink</span>
+                <span class="method-start">44352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">44720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTreePageNav_AfterLogin</span>
+                <span class="method-start">44768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">46173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyArrayPageNav_BeforeLogin</span>
+                <span class="method-start">46176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">46834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyArrayPageNav_AfterLogin</span>
+                <span class="method-start">46836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48055 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsAlgo.testCases.TC_DsAlgoLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">48539 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(sridevi, Dsalgo@123, valid)</span>
+                <span class="method-start">53097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(hhghgg, Dsalgo@123, invalid)</span>
+                <span class="method-start">55285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(sridevi, hjkhvhjv, invalid)</span>
+                <span class="method-start">55886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(xddvfgdgf, bgbgbgfbgfb, invalid)</span>
+                <span class="method-start">56322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56737 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsAlgo.testCases.TC_DsAlgoQueueTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">56935 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerObj</span>
+                <span class="method-start">60202 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">60203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyArrayLink</span>
+                <span class="method-start">60205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">63013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCollectionsLink</span>
+                <span class="method-start">63015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">63598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLinkImpQueueInPython</span>
+                <span class="method-start">63600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">63900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPracticeQuestions</span>
+                <span class="method-start">63903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">64370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyQueueOperations</span>
+                <span class="method-start">64375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">65069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRunBtnFromQueue</span>
+                <span class="method-start">65072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70894 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsAlgo.testCases.TC_DsAlgoRegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71423 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">77008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyRegisterWithEmptyFields</span>
+                <span class="method-start">77100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">80526 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerTest(test105, Test@123, Test@123, invalid)</span>
+                <span class="method-start">80529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">80941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerTest(sdfsdf(op, Test@123, Test@123, invalid)</span>
+                <span class="method-start">80943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">81294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerTest(test101, 789456123, 789456123, invalid)</span>
+                <span class="method-start">81295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">81690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerTest(test101, Test@123, Test@124, invalid)</span>
+                <span class="method-start">81693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">82093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerTest(test101, Test@1, Test@1, invalid)</span>
+                <span class="method-start">82095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">82557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerTest(test12334//, Test@123, Test@123, invalid)</span>
+                <span class="method-start">82560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">82962 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidRegisterDetails</span>
+                <span class="method-start">82964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">83886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyvalidationMsg</span>
+                <span class="method-start">83888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86138 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dsAlgo.testCases.TC_DsAlgoTreeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">86338 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerObj</span>
+                <span class="method-start">90789 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">90790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyOverviewOfTrees</span>
+                <span class="method-start">90796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">94509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTerminologies</span>
+                <span class="method-start">94557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">95426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTreeTraversals</span>
+                <span class="method-start">95431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">96557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTypesOfTrees</span>
+                <span class="method-start">96565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">97522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAppOfBinaryTrees</span>
+                <span class="method-start">97527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">98547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBST</span>
+                <span class="method-start">98552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">99751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBinaryTreeTraversals</span>
+                <span class="method-start">99764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">100955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBinaryTrees</span>
+                <span class="method-start">100959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">101854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyImpInBinaryTrees</span>
+                <span class="method-start">101900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">102958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyImpInPython</span>
+                <span class="method-start">102983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">103839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyImpOfBST</span>
+                <span class="method-start">103843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">104733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTraversalsIllustration</span>
+                <span class="method-start">104739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">clients</span>
+                <span class="method-start">105748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTypesOfBinaryTrees</span>
+                <span class="method-start">105754 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106646 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
