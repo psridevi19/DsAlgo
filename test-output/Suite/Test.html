@@ -1,0 +1,284 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>41/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 21 11:33:34 EDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>79 seconds (79341 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoPortalTest_001.getStartedToHome()'><b>getStartedToHome</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoPortalTest_001</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoPortalTest_001@5a59ca5e</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyImpOfBST()'><b>verifyImpOfBST</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoHomeTest.verifyTreePageNav_AfterLogin()'><b>verifyTreePageNav_AfterLogin</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoHomeTest</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoHomeTest@28dcca0c</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoHomeTest.verifyDropDown()'><b>verifyDropDown</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoHomeTest@28dcca0c</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyTraversalsIllustration()'><b>verifyTraversalsIllustration</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoRegisterTest.registerTest()'><b>registerTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoRegisterTest<br>Parameters: test12334//, Test@123, Test@123, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoRegisterTest@70cf32e3</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoHomeTest.verifyArrayPageNav_FromDropdown()'><b>verifyArrayPageNav_FromDropdown</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoHomeTest</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoHomeTest@28dcca0c</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoQueueTest.verifyCollectionsLink()'><b>verifyCollectionsLink</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoQueueTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoQueueTest@548a24a</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoRegisterTest.VerifyRegisterWithEmptyFields()'><b>VerifyRegisterWithEmptyFields</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoRegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoRegisterTest@70cf32e3</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoQueueTest.verifyLinkImpQueueInPython()'><b>verifyLinkImpQueueInPython</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoQueueTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoQueueTest@548a24a</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoRegisterTest.registerTest()'><b>registerTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoRegisterTest<br>Parameters: sdfsdf(op, Test@123, Test@123, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoRegisterTest@70cf32e3</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoHomeTest.verifyArrayPageNav_AfterLogin()'><b>verifyArrayPageNav_AfterLogin</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoHomeTest</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoHomeTest@28dcca0c</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoQueueTest.verifyPracticeQuestions()'><b>verifyPracticeQuestions</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoQueueTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoQueueTest@548a24a</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoLoginTest.loginTest()'><b>loginTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoLoginTest<br>Parameters: sridevi, hjkhvhjv, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoLoginTest@536f2a7e</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoQueueTest.verifyArrayLink()'><b>verifyArrayLink</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoQueueTest</td>
+<td></td>
+<td>3</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoQueueTest@548a24a</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoHomeTest.signIn()'><b>signIn</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoHomeTest@28dcca0c</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoHomeTest.verifyRegisterLink()'><b>verifyRegisterLink</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoHomeTest@28dcca0c</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.VerifyTreeTraversals()'><b>VerifyTreeTraversals</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoRegisterTest.registerTest()'><b>registerTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoRegisterTest<br>Parameters: test101, Test@1, Test@1, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoRegisterTest@70cf32e3</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoRegisterTest.verifyValidRegisterDetails()'><b>verifyValidRegisterDetails</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoRegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoRegisterTest@70cf32e3</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyBinaryTrees()'><b>verifyBinaryTrees</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyBinaryTreeTraversals()'><b>verifyBinaryTreeTraversals</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyTypesOfBinaryTrees()'><b>verifyTypesOfBinaryTrees</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoQueueTest.verifyQueueOperations()'><b>verifyQueueOperations</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoQueueTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoQueueTest@548a24a</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoLoginTest.loginTest()'><b>loginTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoLoginTest<br>Parameters: xddvfgdgf, bgbgbgfbgfb, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoLoginTest@536f2a7e</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyImpInPython()'><b>verifyImpInPython</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoQueueTest.verifyRunBtnFromQueue()'><b>verifyRunBtnFromQueue</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoQueueTest</td>
+<td></td>
+<td>5</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoQueueTest@548a24a</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoHomeTest.verifyArrayPageNav_BeforeLogin()'><b>verifyArrayPageNav_BeforeLogin</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoHomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoHomeTest@28dcca0c</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyAppOfBinaryTrees()'><b>verifyAppOfBinaryTrees</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoLoginTest.loginTest()'><b>loginTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoLoginTest<br>Parameters: hhghgg, Dsalgo@123, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoLoginTest@536f2a7e</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoLoginTest.loginTest()'><b>loginTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoLoginTest<br>Parameters: sridevi, Dsalgo@123, valid</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoLoginTest@536f2a7e</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.VerifyTypesOfTrees()'><b>VerifyTypesOfTrees</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoHomeTest.verifyQueuePageNav_AfterLogin()'><b>verifyQueuePageNav_AfterLogin</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoHomeTest</td>
+<td></td>
+<td>1</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoHomeTest@28dcca0c</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyImpInBinaryTrees()'><b>verifyImpInBinaryTrees</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoRegisterTest.registerTest()'><b>registerTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoRegisterTest<br>Parameters: test101, Test@123, Test@124, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoRegisterTest@70cf32e3</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoRegisterTest.registerTest()'><b>registerTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoRegisterTest<br>Parameters: test101, 789456123, 789456123, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoRegisterTest@70cf32e3</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoArrayTest.testArray()'><b>testArray</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoArrayTest</td>
+<td></td>
+<td>3</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoArrayTest@72bc6553</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.VerifyTerminologies()'><b>VerifyTerminologies</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoRegisterTest.registerTest()'><b>registerTest</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoRegisterTest<br>Parameters: test105, Test@123, Test@123, invalid</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoRegisterTest@70cf32e3</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.VerifyOverviewOfTrees()'><b>VerifyOverviewOfTrees</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>6</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+<tr>
+<td title='com.dsAlgo.testCases.TC_DsAlgoTreeTest.verifyBST()'><b>verifyBST</b><br>Test class: com.dsAlgo.testCases.TC_DsAlgoTreeTest</td>
+<td></td>
+<td>0</td>
+<td>com.dsAlgo.testCases.TC_DsAlgoTreeTest@66982506</td></tr>
+</table><p>
+</body>
+</html>
